@@ -2,7 +2,8 @@ var expect = chai.expect
 var graph;
 
 beforeEach(function(){
-  graph = new Graph
+  graph = new Graph();
+
 })
 
 describe("#addVertex", function(){
