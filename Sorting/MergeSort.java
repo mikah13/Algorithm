@@ -59,7 +59,6 @@ class MergeSort {
             }
         }
         input.close();
-
         ArrayList<Integer> sorted = mergeSort(arr);
         System.out.println(sorted);
     }

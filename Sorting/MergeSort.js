@@ -3,10 +3,7 @@ pushAndShift = (a, b) => a.push(b.shift());
 merge = (a, b) => {
     let k = [];
     while (a.length && b.length) {
-        pushAndShift(
-            k, a[0] > b[0]
-            ? b
-            : a);
+        pushAndShift(k, a[0] > b[0]?b:a);
     }
     while (a.length) {
         pushAndShift(k, a);
